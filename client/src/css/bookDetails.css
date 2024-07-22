@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&display=swap");
+
+.bookCard{
+  margin: 4rem auto auto auto !important;
+  height: auto !important;
+  /* max-height: 600px !important; */
+  box-shadow: inset 0 0 20px rgba(33,33,33,.2); 
+  /* margin-top: 10rem; */
+}
+.cardRow{
+  height: 100% !important;
+}
+.cardImage{
+  height: auto;
+  /* padding: 15px; */
+}
+.cardText{
+  font-size: 17px !important;
+}
+.cardBody{
+  padding-top: 3rem;
+  height: 100%;
+  margin-bottom: 2rem!important;
+}
+.img-fluid{
+  height: 100%;
+  width: 100%;
+  /* margin-left: 2rem;
+  margin-top: 2rem; */
+}
+.rounded-start {
+  
+  border-radius: 0.25rem;
+}
+.issue-btn{
+  font-family:  "PT Sans", sans-serif !important;
+  padding: 3% 6% !important;
+  display: block !important;
+  width: 58% !important;
+  border-radius: 38px !important;
+  margin-left: 4.8rem !important;  
+}
+.issue-btn:hover, .delete-btn:hover{
+  transform: scale(1.02);
+}
+.issued{
+  background-color: aliceblue;
+  box-shadow: 2px 2px 7px rgb(1, 47, 87) inset;
+}
+.disabled{
+  cursor: not-allowed !important;
+}
+
+.delete-btn{
+  font-family:  "PT Sans", sans-serif !important;
+  padding: 3% 4% !important;
+  display: inline-block !important;
+  width: 36% !important;
+  border-radius: 38px !important;
+  margin-top: 0.3rem;
+  /* margin-left: 4rem !important;   */
+}
+
+.bookDetails{
+  text-align: left;
+  margin: 3rem auto 2rem 3rem;
+}
+.bookDetails p{
+  
+  padding-left: 2rem;
+  
+}
+.titles{
+  font-weight: bold;
+  display: inline-block;
+  min-width: 6rem;
+}
+.copy{
+  padding-left: 1rem !important;
+}
+
+@media  screen and (max-width: 1024px) {
+  .bookCard{
+    margin: auto !important;
+    height: auto !important;
+  }
+}

@@ -1,0 +1,11 @@
+.top {
+    float:right;
+    flex:1;
+    position: absolute;
+    left:265px;
+    right:15px;
+    top:15px;
+    bottom: 15px;
+    background-color: white;
+    border-radius: 0.5em;
+}
