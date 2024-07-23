@@ -2,7 +2,7 @@
 ### To Test this Application
 <p>Email:- test@gmail.com</p>
 <p>Password:- 123456</p>
-<p>sometimes it may take times to login so, please keep patience</p>
+<p>sometimes it may take times to login so, please keep patience or reload the page</p>
 
 ## To Run this application on local machine
 <p>1: Clone this project as a zip file</p>
